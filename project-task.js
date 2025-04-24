@@ -74,8 +74,8 @@ for (let i = 0; i < names.length; i++) {
 // ✅ Your refactored code goes below this line!
 
 
-// Script 1 - Greeting multiple users
-function welcome(name){
+// Script 1 - Greeting multiple users  
+function welcome(name){   //My solution was mostly the same to the desired solution except they console logged inside of the function but I did it outside of the function
    return `Welcome, ${name}!`;
 }
 console.log(welcome("Alice"));
@@ -83,20 +83,20 @@ console.log(welcome("Bob"));
 console.log(welcome("Charlie"));
 
 // Script 2 - Sum calculation
-const addNumbers = function(num1, num2){
+const addNumbers = function(num1, num2){ // My solution was the same except they used a, b as the parameters
    return num1 + num2;
 }
 console.log("The sum of 5 and 10 is " + addNumbers(5, 10));
 
 // Script 3 - Product calculation
-const multiplyNumbers = function(num1, num2){
+const multiplyNumbers = function(num1, num2){ // My solution was the same except they used a, b as the parameters
    return num1 * num2;
 }
 console.log("The product of 5 and 10 is " + multiplyNumbers(5, 10));
 
 // Script 4 - Print names from a list
-function printArray(array){
-   for(let i = 0; i < names.length; i++){
+function printArray(array){ // My solution was the same as the desired solution except I console logged outside of the function and combined both into one
+   for(let i = 0; i < array.length; i++){
       console.log(array[i]);
    }
 }
